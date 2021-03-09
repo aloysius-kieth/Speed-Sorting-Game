@@ -1,0 +1,18 @@
+<ArgumentException: Must specify valid information for parsing in the string.> --- Begin Error Message: System.Enum+EnumResult.SetFailure (System.Enum+ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Enum.TryParseEnum (System.Type enumType, System.String value, System.Boolean ignoreCase, System.Enum+EnumResult& parseResult) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Enum.Parse (System.Type enumType, System.String value, System.Boolean ignoreCase) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Enum.Parse (System.Type enumType, System.String value) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+GameManager+<GetResultScenario>d__27.MoveNext () (at Assets/Game/Scripts/Managers/GameManager.cs:124)
+--- End of stack trace from previous location where exception was thrown ---
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Runtime.CompilerServices.TaskAwaiter.GetResult () (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+AwaitExtensions+<WrapErrors>d__1.MoveNext () (at Assets/_TRINAX_UNITY_LIB/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs:35)
+--- End of stack trace from previous location where exception was thrown ---
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__6_0 (System.Object state) (at <df7127ba07dc446d9f5831a0ec7b1d63>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnitySynchronizationContext.cs:115)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
